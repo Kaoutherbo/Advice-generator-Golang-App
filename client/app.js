@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const num = document.getElementById('num');
   const advice = document.getElementById('advice');
   const dice = document.getElementById('dice');
-
+  //const URL = "http://localhost:8080";
   const URL = "https://advice-generator-golang-app-1.onrender.com";
-
+  
   dice.addEventListener('click', function() {
       fetchNewQuote();
   });
